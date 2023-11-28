@@ -1,0 +1,32 @@
+body{
+    background-color: #3498db;
+}
+
+#wrapper{
+    display: grid;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'nv nv nv nv'
+    'as mn mn mn'
+    'ft ft ft ft';
+}
+
+header{
+    grid-area: hd;
+}
+
+nav{
+    grid-area: nv;
+}
+
+aside{
+    grid-area: as;
+}
+
+main{
+    grid-area: mn;
+}
+
+footer{
+    grid-area: ft;
+}
