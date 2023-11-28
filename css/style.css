@@ -1,9 +1,8 @@
-body{
-    background-color: #3498db;
-}
-
 #wrapper{
     display: grid;
+    height: 100vh;
+    grid-template-rows: 25vh 13vh 50vh 12vh;
+    grid-template-columns: 25vw 25vw 25vw 25vw;
     grid-template-areas: 
     'hd hd hd hd'
     'nv nv nv nv'
@@ -13,20 +12,25 @@ body{
 
 header{
     grid-area: hd;
+    background-color: green;
 }
 
 nav{
     grid-area: nv;
+    background-color: red;
 }
 
 aside{
     grid-area: as;
+    background-color: yellow;
 }
 
 main{
     grid-area: mn;
+    background-color: blue;
 }
 
 footer{
     grid-area: ft;
+    background-color: pink;
 }
