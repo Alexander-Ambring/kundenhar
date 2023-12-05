@@ -1,5 +1,6 @@
 body{
-     background-color: #3498db;
+    background-color: #3498db;
+    margin:0px;
 }
 
 #wrapper{
@@ -15,15 +16,19 @@ body{
 }
 
 header{
+    display: flex;
     grid-area: hd;
     border-color: #3498db;
     border-bottom-style: solid;
     background-color: #05141e;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav{
     grid-area: nv;
-
+    display: flex;
+    justify-content: space-around;
     background-color: #081f2f;
 }
 
@@ -45,7 +50,28 @@ footer{
     background-color: #05141e;
 }
 
-img{
-    height: 100px;
-    width: 100px;
+nav a{
+    color: white;
+    flex:1;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    border-color: #05141e;
+    border-left: solid 2px;
+    border-right: solid 2px;
+    text-decoration: none;
+}
+
+nav a:visited{
+    border-color: #05141e;
+    color: white;
+}
+
+nav a:hover{
+    background-color: #05141e;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
 }
