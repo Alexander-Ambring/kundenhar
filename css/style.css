@@ -78,6 +78,9 @@ aside a:hover{
 main{
     grid-area: mn;
     background-color: #ebf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer{
@@ -88,4 +91,14 @@ footer{
 .logo {
     height: 150px;
     width: 150px;
+}
+
+.computer {
+    height: auto;
+    width: 600px;
+}
+
+.icon{
+    height: 30px;
+    width: auto;
 }
