@@ -1,5 +1,4 @@
 body{
-    background-color: #3498db;
     margin:0px;
 }
 
@@ -32,42 +31,57 @@ nav{
     background-color: #081f2f;
 }
 
-aside{
-    grid-area: as;
-
-    background-color: #ebf5fc;
-}
-
-main{
-    grid-area: mn;
-
-    background-color: #ebf5fc;
-}
-
-footer{
-    grid-area: ft;
-
-    background-color: #05141e;
-}
-
 nav a{
-    color: white;
+    color: #ebf5fc;
     flex:1;
     justify-content: center;
     display:flex;
     align-items: center;
-    border-color: #05141e;
+    border-color: #0b2a40;
     border-left: solid 2px;
     border-right: solid 2px;
     text-decoration: none;
 }
 
 nav a:visited{
-    border-color: #05141e;
-    color: white;
+    border-color: #0b2a40;
+    color: #ebf5fc;
 }
 
 nav a:hover{
+    background-color: #05141e;
+}
+
+aside{
+    grid-area: as;
+    background-color: #081f2f;
+    border-top: 10px #ebf5fc solid;
+    border-bottom: 10px #ebf5fc solid;
+    display: flex;
+    flex-direction: column;
+}
+
+aside a{
+    color: #ebf5fc;
+    flex:1;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    border: 1px #0b2a40 solid;
+    text-decoration: none;
+}
+
+aside a:hover{
+    background-color: #05141e;
+}
+
+main{
+    grid-area: mn;
+    background-color: #ebf5fc;
+}
+
+footer{
+    grid-area: ft;
     background-color: #05141e;
 }
 
